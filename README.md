@@ -52,7 +52,6 @@ for row in data:
 + To make the table more analytical, I create a pivot table for it. With the pivot table, I put Year, School Name, and Category in the filter section, put Grades in the row section, and put Sum of Number Tested, Average of Mean Scale Score, Max of Mean Scale Score, Min of Mean Scale Score, Average of % Level 1, Average of % Level 2, Average of % Level 3, and Average of % Level 4 in the values section. There is also a slicer that used to filter the DBN we want to choose 
 
 + In this way, people can easily filter out the data they want to grab which fulfill the requirements they set up. For example, in the below table, I choose to grab the exam data from year 2013's WEST PREP ACADEMY school. We can now see the detailed exam data for seperate grades: grade 6, grade 7, and grade 8. We can also see the summarized exam data for grade 6 to grade 8.
-   
 
 |Row Labels|	Sum of Number Tested|	Average of Mean Scale Score|Max of Mean Scale Score|Min of Mean Scale Score|	Average of % Level 1|	Average of % Level 2|	Average of % Level 3|	Average of % Level 4|
 |---|---|---|----|---|---|---|---|---|
@@ -60,4 +59,3 @@ for row in data:
 |7|	71|	282|	282|	282|	66.2|	25.4|	8.5|	0|
 |8|	41|	279|	279|	279|	63.4|	31.7|	4.9	|0|
 |Grand Total|	346|	283.75|	290|	279|	55.15|	35.925|	6.725|	2.225|
-
